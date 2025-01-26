@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tbGame") //permite que seja equivalente à uma tabela do banco relacional
+@Table(name = "tb_game") //permite que seja equivalente à uma tabela do banco relacional
 
 public class Game {
 	
@@ -25,7 +25,11 @@ public class Game {
 	private String platform;
 	private Double score;
 	private String imgUrl ;
+	
+	@Column(columnDefinition = "TEXT")
 	private String shortDescription ;
+	
+	@Column(columnDefinition = "TEXT")
 	private String longDescription ;
 	
 
