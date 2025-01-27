@@ -24,13 +24,13 @@ public class Game {
 	private String genre;
 	private String platform;
 	private Double score;
-	private String imgUrl ;
+	private String imgUrl;
 	
 	@Column(columnDefinition = "TEXT")
-	private String shortDescription ;
+	private String shortDescription;
 	
 	@Column(columnDefinition = "TEXT")
-	private String longDescription ;
+	private String longDescription;
 	
 
 
